@@ -81,5 +81,69 @@ Integrate web interface with backend functionality.
 
 Add translation history and export options.
 
-📄 License
-MIT License
+Multilingual Text Translator (React Frontend)
+A beautifully styled React-based frontend for a multilingual translation app that allows users to translate text, upload documents, detect languages, speak translations, and explore English synonyms.
+
+✨ Features
+🧠 AI-powered Language Detection
+
+🌍 Text Translation across 100+ languages
+
+📁 File Upload Support: .txt, .pdf, .docx
+
+🔊 Text-to-Speech for translated text
+
+📚 Synonym Explorer for English words
+
+💅 Responsive UI with modern gradients and animated interactions
+
+🖥️ Tech Stack
+React (intended final structure)
+
+HTML5/CSS3/JavaScript (prototype in current state)
+
+APIs:
+
+MyMemory Translation API
+
+LibreTranslate (Fallback)
+
+DetectLanguage API (planned)
+
+🚧 Current Status
+The UI is currently written in static HTML (hih.html) but is designed for conversion to a full React application. It includes modular structure hints, interactive controls, and styled components, ready for integration with a backend API.
+
+📁 File Structure (Planned React)
+bash
+Copy
+Edit
+/src
+  /components
+    Translator.jsx
+    LanguageSelector.jsx
+    FileUploader.jsx
+    SynonymExplorer.jsx
+  /styles
+    App.css
+App.jsx
+index.jsx
+🧪 Getting Started (after React conversion)
+bash
+Copy
+Edit
+npx create-react-app translator-app
+cd translator-app
+# Copy HTML elements into JSX components under /src/components
+npm install axios
+npm start
+🖼️ UI Preview
+
+🔧 To-Do
+Convert hih.html into modular React components
+
+Hook up APIs to dynamic inputs
+
+Add voice selection in TTS
+
+Build backend (optional: Flask/FastAPI for translation proxy and file handling)
+![Interface](https://raw.githubusercontent.com/Anushka190903/multillingual_text/refs/heads/main/inter2.jpg)
