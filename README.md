@@ -1,12 +1,85 @@
-# React + Vite
+🌐 Multilingual Text Translator with File Upload and Synonym Enhancer
+An intelligent translation tool built using Python and Tkinter, offering multilingual text translation, file input support (TXT, PDF, DOCX), speech synthesis, and synonym enhancement.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🔤 Automatic Language Detection using langdetect
 
-Currently, two official plugins are available:
+🌍 Translation Support for over 100 languages via Google Translate API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📁 File Upload Support (TXT, PDF, DOCX)
 
-## Expanding the ESLint configuration
+🔈 Text-to-Speech Output using gTTS and pygame
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📚 Synonym Enhancer using WordNet from NLTK (for English)
+
+🖥️ User-Friendly GUI built with tkinter
+
+🌐 Responsive Web Interface (optional) based on the provided HTML for web deployment (static prototype)
+
+🖼️ Screenshot of the interface
+![Interface](
+
+🛠️ Installation
+Python Requirements
+bash
+Copy
+Edit
+pip install googletrans==4.0.0-rc1
+pip install langdetect
+pip install gtts
+pip install nltk
+pip install PyPDF2
+pip install python-docx
+pip install pygame
+Also run:
+
+python
+Copy
+Edit
+import nltk
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+📂 File Structure
+hih.py – Main Python application with GUI and logic
+
+hih.html – Optional static web interface design (HTML/CSS/JS)
+
+inter.jpg – Interface screenshot
+
+🧠 How It Works
+Input Text or Upload a File (PDF, DOCX, TXT)
+
+Detect the language automatically or manually select source/target languages.
+
+Translate the text using Google Translate API.
+
+Listen to translated text using gTTS.
+
+Retrieve synonyms (only for English outputs).
+
+🔄 Example
+Input:
+pgsql
+Copy
+Edit
+Hello my name is Anu
+Output (Hindi):
+Copy
+Edit
+हेलो मेरा नाम अनु है
+❗ Notes
+Internet connection is required for translation and speech synthesis.
+
+Synonyms are only supported when the target language is English.
+
+PDF and DOCX support requires proper formatting for accurate text extraction.
+
+📌 TODO
+Improve synonym support for other languages.
+
+Integrate web interface with backend functionality.
+
+Add translation history and export options.
+
+📄 License
+MIT License
