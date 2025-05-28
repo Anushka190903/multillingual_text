@@ -17,7 +17,7 @@ An intelligent translation tool built using Python and Tkinter, offering multili
 🌐 Responsive Web Interface (optional) based on the provided HTML for web deployment (static prototype)
 
 🖼️ Screenshot of the interface
-![Interface](
+![Interface](https://raw.githubusercontent.com/Anushka190903/multillingual_text/refs/heads/main/inter.jpg)
 
 🛠️ Installation
 Python Requirements
