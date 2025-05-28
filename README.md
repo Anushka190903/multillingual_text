@@ -1,7 +1,7 @@
-🌐 Multilingual Text Translator with File Upload and Synonym Enhancer
+## 🌐 Multilingual Text Translator with File Upload and Synonym Enhancer(By Python)
 An intelligent translation tool built using Python and Tkinter, offering multilingual text translation, file input support (TXT, PDF, DOCX), speech synthesis, and synonym enhancement.
 
-🚀 Features
+## 🚀 Features
 🔤 Automatic Language Detection using langdetect
 
 🌍 Translation Support for over 100 languages via Google Translate API
@@ -14,12 +14,12 @@ An intelligent translation tool built using Python and Tkinter, offering multili
 
 🖥️ User-Friendly GUI built with tkinter
 
-🌐 Responsive Web Interface (optional) based on the provided HTML for web deployment (static prototype)
+## 🌐 Responsive Web Interface (optional) based on the provided HTML for web deployment (static prototype)
 
-🖼️ Screenshot of the interface
+## 🖼️ Screenshot of the interface
 ![Interface](https://raw.githubusercontent.com/Anushka190903/multillingual_text/refs/heads/main/inter.jpg)
 
-🛠️ Installation
+## 🛠️ Installation
 Python Requirements
 bash
 Copy
@@ -33,7 +33,7 @@ pip install python-docx
 pip install pygame
 Also run:
 
-python
+## python
 Copy
 Edit
 import nltk
@@ -46,7 +46,7 @@ hih.html – Optional static web interface design (HTML/CSS/JS)
 
 inter.jpg – Interface screenshot
 
-🧠 How It Works
+## 🧠 How It Works
 Input Text or Upload a File (PDF, DOCX, TXT)
 
 Detect the language automatically or manually select source/target languages.
@@ -57,7 +57,7 @@ Listen to translated text using gTTS.
 
 Retrieve synonyms (only for English outputs).
 
-🔄 Example
+## 🔄 Example
 Input:
 pgsql
 Copy
@@ -81,10 +81,10 @@ Integrate web interface with backend functionality.
 
 Add translation history and export options.
 
-Multilingual Text Translator (React Frontend)
+## Multilingual Text Translator (React Frontend)
 A beautifully styled React-based frontend for a multilingual translation app that allows users to translate text, upload documents, detect languages, speak translations, and explore English synonyms.
 
-✨ Features
+## ✨ Features
 🧠 AI-powered Language Detection
 
 🌍 Text Translation across 100+ languages
@@ -95,9 +95,9 @@ A beautifully styled React-based frontend for a multilingual translation app tha
 
 📚 Synonym Explorer for English words
 
-💅 Responsive UI with modern gradients and animated interactions
+## 💅 Responsive UI with modern gradients and animated interactions
 
-🖥️ Tech Stack
+## 🖥️ Tech Stack
 React (intended final structure)
 
 HTML5/CSS3/JavaScript (prototype in current state)
@@ -110,10 +110,10 @@ LibreTranslate (Fallback)
 
 DetectLanguage API (planned)
 
-🚧 Current Status
+## 🚧 Current Status
 The UI is currently written in static HTML (hih.html) but is designed for conversion to a full React application. It includes modular structure hints, interactive controls, and styled components, ready for integration with a backend API.
 
-📁 File Structure (Planned React)
+## 📁 File Structure (Planned React)
 bash
 Copy
 Edit
@@ -138,12 +138,12 @@ npm install axios
 npm start
 🖼️ UI Preview
 
-🔧 To-Do
+## 🔧 To-Do
 Convert hih.html into modular React components
 
 Hook up APIs to dynamic inputs
 
 Add voice selection in TTS
 
-Build backend (optional: Flask/FastAPI for translation proxy and file handling)
-![Interface](https://raw.githubusercontent.com/Anushka190903/multillingual_text/refs/heads/main/inter2.jpg)
+## Build backend (optional: Flask/FastAPI for translation proxy and file handling)
+## ![Interface](https://raw.githubusercontent.com/Anushka190903/multillingual_text/refs/heads/main/inter2.jpg)
